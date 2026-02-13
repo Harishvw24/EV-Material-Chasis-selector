@@ -72,11 +72,11 @@ function App() {
     <div className="app-shell">
       <main className="card">
         <div className="card__header">
-          <p className="eyebrow">Material Vhasis</p>
-          <h1>Material selection predictor</h1>
+          <p className="eyebrow">EV Chasis Material</p>
+          <h1>EV Material selection predictor</h1>
           <p className="subtitle">
-            Enter mechanical properties to check if the material is suitable
-            for selection.
+            Enter mechanical properties of material to check if it is suitable 
+            for EV chasis selection.
           </p>
         </div>
 
