@@ -2,10 +2,10 @@
 
 Predict whether a material is suitable for EV chassis selection using a trained Gradient Boosting model and a React UI.
 
-**Deployment:** https://ev-material-chasis-selector.vercel.app/
+**Deployment:** https://ev-material-chasis-selector.vercel.app
 
-## Screenshot
-![EV material selection UI](docs/screenshot.png)
+## Preview:
+<img width="1899" height="961" alt="Screenshot 2026-02-15 004021" src="https://github.com/user-attachments/assets/80b4fa19-697e-4683-a7d5-0047f6ec1a63" />
 
 ## Highlights
 - Predicts suitability from mechanical properties (Su, Sy, E, G, mu, Ro).
