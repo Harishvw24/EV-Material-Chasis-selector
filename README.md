@@ -2,9 +2,12 @@
 
 Predict whether a material is suitable for EV chassis selection using a trained Gradient Boosting model and a React UI.
 
-Deployment: https://ev-material-chasis-selector.vercel.app/
+**Deployment:** https://ev-material-chasis-selector.vercel.app/
 
-## Features
+## Screenshot
+![EV material selection UI](docs/screenshot.png)
+
+## Highlights
 - Predicts suitability from mechanical properties (Su, Sy, E, G, mu, Ro).
 - Shows a clear decision (Suitable / Not suitable) with probability when available.
 - Flask API with health check and JSON prediction endpoint.
@@ -17,13 +20,13 @@ Deployment: https://ev-material-chasis-selector.vercel.app/
 ## Project Structure
 ```
 backend/
-	app.py               Flask API
-	train_model.py       Model training script
-	requirements.txt     Backend dependencies
-	data/material.csv    Training dataset
-	model/material_gbc.joblib  Trained model bundle
+	app.py                    Flask API
+	train_model.py            Model training script
+	requirements.txt          Backend dependencies
+	data/material.csv         Training dataset
+	model/material_gbc.joblib Trained model bundle
 frontend/
-	src/                 React app
+	src/                      React app
 ```
 
 ## API
